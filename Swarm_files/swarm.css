@@ -235,3 +235,13 @@ margin: 40px 0;
 .bott-row-friends {
   padding-bottom: 52px;
 }
+
+/*--------2018_august_changes---------------------------------------------------*/
+
+@media (max-width: 767px) {
+  .navbar-fixed-bottom {
+    position: absolute;
+}
+}
+
+
