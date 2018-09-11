@@ -242,6 +242,10 @@ margin: 40px 0;
   .navbar-fixed-bottom {
     position: absolute;
 }
+
+  .swarm-page.main-tutorial {
+    min-height: 900px;
+}
 }
 
 
