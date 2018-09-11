@@ -238,6 +238,11 @@ margin: 40px 0;
 
 /*--------2018_august_changes---------------------------------------------------*/
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 @media (max-width: 767px) {
   .navbar-fixed-bottom {
     position: absolute;
@@ -246,6 +251,28 @@ margin: 40px 0;
   .swarm-page.main-tutorial {
     min-height: 900px;
 }
+
+.main {
+  padding: 0;
 }
+
+  .main ul.frontpage-services {
+  display: block;
+}
+
+  .linkframe a {
+  display: block;
+}
+
+  .linkframe a:nth-child(2) i {
+  width: 17px;
+}
+
+  footer a:not(:first-of-type) {
+  margin-left: 0;
+}
+
+}
+
 
 
