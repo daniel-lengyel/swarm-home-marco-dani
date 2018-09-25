@@ -246,11 +246,20 @@ html, body {
 @media (max-width: 767px) {
   .navbar-fixed-bottom {
     position: absolute;
+    bottom: -130px;
 }
 
   .swarm-page.main-tutorial {
     min-height: 900px;
 }
+
+/* SCroll padding fix */
+
+body section {
+  padding-top: 30px;
+}
+
+ /* */
 
 .main {
   padding: 0;
